@@ -1,0 +1,9 @@
+He creado el archivo `deploy.yml` en la carpeta `.github/workflows`. Este archivo contiene las instrucciones para que GitHub Actions construya y despliegue tu portafolio en GitHub Pages cada vez que hagas un `push` a la rama `main` o `master`.
+
+Para que todo funcione correctamente, faltan dos pasos importantes:
+
+1.  **Configurar tu repositorio en GitHub:** Ve a la configuración de tu repositorio, busca la sección de "Pages" y en la fuente ("Source") selecciona "GitHub Actions".
+
+2.  **Configurar el proyecto:** Necesito saber el nombre exacto de tu repositorio de GitHub para configurar la URL base del proyecto. Por ejemplo, si tu repositorio se llama `portafolio-web`, dímelo para que pueda hacer el último ajuste en el archivo `vite.config.ts`.
+
+Una vez me des el nombre, haré el cambio final y tu sitio estará listo para ser desplegado.
