@@ -7,17 +7,17 @@ import { useLanguage } from '../context/LanguageContext';
 // Coloca aquí los enlaces a tus imágenes. 
 // Puedes usar enlaces externos o rutas locales (ej: '/assets/proyecto1.jpg')
 const PROJECT_IMAGES = {
-  'eng-1': '/cafam.jpg', // CORREGIDO: La ruta debe empezar con / y no debe incluir "public"
-  'eng-2': '/TOPO.jpg', // Parque Tomocoro
-  'eng-3': '/ELEMENTAL.jpg', // Elemental
-  'eng-4': '/BANCO.jpg', // Bóvedas Banrep
-  'eng-5': '/METRO.jpg', // Metro Bogotá
-  'bim-1': '/PYREVIT.png', // Plugins pyRevit
-  'bim-2': '/DYNAMO.jpg', // Dynamo
+  'eng-1': 'cafam.jpg', // CORREGIDO: La ruta debe empezar con / y no debe incluir "public"
+  'eng-2': 'TOPO.jpg', // Parque Tomocoro
+  'eng-3': 'ELEMENTAL.jpg', // Elemental
+  'eng-4': 'BANCO.jpg', // Bóvedas Banrep
+  'eng-5': 'METRO.jpg', // Metro Bogotá
+  'bim-1': 'PYREVIT.png', // Plugins pyRevit
+  'bim-2': 'DYNAMO.jpg', // Dynamo
   'bim-3': 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800', // Eficiencia
-  'bim-4': '/AUTO.jpg', // AutoSprink
-  'bim-5': '/FAMILY.jpg', // Familias Reportes
-  'bim-6': '/FAMI-CONS.jpg', // Familias Construcción
+  'bim-4': 'AUTO.jpg', // AutoSprink
+  'bim-5': 'FAMILY.jpg', // Familias Reportes
+  'bim-6': 'FAMI-CONS.jpg', // Familias Construcción
 };
 // ----------------------------------------
 
